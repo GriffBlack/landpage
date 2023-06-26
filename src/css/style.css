@@ -185,16 +185,19 @@ header, footer {
     margin-right: 40px;
 }
 
-.section__2__ul li a {
+.section__2__li {
     color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
     line-height: 20px;
 }
 
-.section__2__ul li a:hover {
+.section__2__ul li a:hover, .active_li {
     color: #E3B873;
     border-bottom: #E3B873 solid 2px;
     padding-bottom: 6px;
+}
+.active_li {
+    color: #E3B873;
 }
 
 .section__2__slider {
